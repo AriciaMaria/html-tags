@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz para programadores</title>
+</head>
+<body>
+    <header>
+        <h1>Quiz interativo para programadores</h1>
+        <p>Teste seus conhecimentos sobre programação e verifique seu desempenho!</p>
+    </header>
+    <main>
+        <!-- Conteúdo principal -->
+        <section>
+            <h2>Sobre esse quiz</h2>
+            <p><strong>Este quiz</strong> foi criado para testar seus conhecimentos sobre <em>linguagens de programação</em>. <br>Responda às perguntas e veja como você se saiu!</p>
+            <p>Você encontrará alguns acrônimos como <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, que são amplamente utilizados na web.</p>
+            <p>Você pode responder quantas vezes quiser e ver seu desempenho ao longo do tempo.</p>
+            <p>Boa sorte!</p>
+        </section>
+        <!-- Perguntas do quiz 1: multipla escolha-->
+        <section>
+           <h2>Pergunta 1</h2>
+           <p>Qual é a linguagem de programação mais utilizada para desenvolvimento web?</p>
+           <form>
+           <ul>
+               <li><input type="radio" name="question1" value="a" id="p1a"> Python</li>
+               <li><input type="radio" name="question1" value="b" id="p1b"> JavaScript</li>
+               <li><input type="radio" name="question1" value="c" id="p1c"> Java</li>
+               <li><input type="radio" name="question1" value="d" id="p1d"> C++</li>
+           </ul>
+           </form>
+        </section>
+        <!-- Perguntas do quiz 2: texto-->
+        <section>
+           <h2>Pergunta 2</h2>
+           <p>Qual é o principal objetivo do HTML?</p>
+           <form>
+           <input type="text" name="pergunta2" id="p2" 
+           placeholder="Digite sua resposta aqui">
+           </form>
+        </section>
+        <!-- Perguntas do quiz 3: senha-->
+         <section>
+              <h2>Pergunta 3</h2>
+                <p>Escreva um exemplo de senha forte:</p>
+                <form>
+                    <input type="password" name="pergunta3" id="p3" 
+                           placeholder="Digite sua senha aqui">
+                </form>
+
+         </section>
+         <!-- Perguntas do quiz 4: data-->
+         <section>
+              <h2>Pergunta 4</h2>
+              <p>Qual é a data de lançamento da primeira versão do HTML?</p>
+              <form>
+                  <input type="date" name="pergunta4" id="p4">
+              </form>
+         </section>
+         <!-- Perguntas do quiz 5: seleção multipla-->
+         <section>
+              <h2>Pergunta 5</h2>
+              <p>Quais das seguintes são linguagens de programação?</p>
+              <form>
+                  <ul>
+                      <li><input type="checkbox" name="pergunta5" value="a" id="p5a"> Python</li>
+                      <li><input type="checkbox" name="pergunta5" value="b" id="p5b"> HTML</li>
+                      <li><input type="checkbox" name="pergunta5" value="c" id="p5c"> JavaScript</li>
+                      <li><input type="checkbox" name="pergunta5" value="d" id="p5d"> CSS</li>
+                  </ul>
+              </form>
+         </section>
+         <!-- Perguntas do quiz 6: upload-->
+         <section>
+              <h2>Pergunta 6</h2>
+              <p>Faça o upload de um arquivo contendo código HTML:</p>
+              <form>
+                  <input type="file" name="pergunta6" id="p6">
+              </form>
+         </section>
+         <!-- Perguntas do quiz 7: menu suspenso-->
+         <section>
+              <h2>Pergunta 7</h2>
+              <p>Selecione o atributo do input que define o seu tipo:</p>
+              <form>
+                  <select name="pergunta7" id="p7">
+                      <option value="a">ID</option>
+                      <option value="b">Type</option>
+                      <option value="c">Name</option>
+                      <option value="d">Value</option>
+                  </select>
+              </form>
+         </section>
+         <!-- Perguntas do quiz 8: imagem-->
+         <section>
+              <h2>Pergunta 8</h2>
+              <p>Qual linguagem de programação é representada pelo logotipo abaixo?</p>
+              <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="Logotipo do JavaScript" width="100">
+                <figcaption>Logotipo de uma linguagem de programação</figcaption>
+              </figure>
+                <form>
+                    <input type="text" name="pergunta8" id="p8" 
+                           placeholder="Digite sua resposta aqui">
+         </section>
+         <!-- Tabela de pontuação-->
+         <section>
+            <h2>Tabela de pontuação</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Pontuação</th>
+                        <th>Comentário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>0-2</td>
+                    <td>Não desista! Continue estudando.</td>
+                </tr>
+                <tr>
+                    <td>3-5</td>
+                    <td>Bom trabalho! Você tem um bom conhecimento.</td>
+                </tr>
+                <tr>
+                    <td>6-8</td>
+                    <td>Excelente! Você é um verdadeiro programador.</td>
+                </tr>
+                <tr>
+                    <td>9-10</td>
+                    <td>Parabéns! Você é um mestre da programação.</td>
+                </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Continue praticando e aprimorando suas habilidades!</td>
+                    </tr>
+                </tfoot>
+            </table>
+         </section>
+         <!-- Listas de respostas-->
+          <section>
+            <h2>Verifique suas respostas</h2>
+            <details>
+                <summary>Clique para ver suas respostas</summary>
+            <ol>
+                <li> b) JavaScript</li>
+                <li> O principal objetivo do HTML é estruturar o conteúdo da web.</li>
+                <li> Uma senha forte deve conter letras maiúsculas, minúsculas, números e caracteres especiais.</li>
+                <li> A primeira versão do HTML foi lançada em 1991.</li>
+                <li> As linguagens de programação são: Python e JavaScript.</li>
+                <li> Faça o upload de um arquivo contendo código HTML válido.</li>
+                <li> O atributo que define o tipo de input é "type".</li>
+                <li> A linguagem de programação representada pelo logotipo é JavaScript.</li>
+            </ol>
+            </details>
+          </section>
+          <!-- Formulário de envio -->
+          <section>
+            <h2>Envie seu feedback</h2>
+            <form>
+                <fieldset>
+                    <legend>Formulário de Feedback</legend>
+                <label for="name">Digite seu nome:</label>
+              <input type="text" name="name" id="name"><br>
+              <label for="email">Digite seu e-mail:</label>
+              <input type="email" name="email" id="email"><br>
+              <label for="feedback">Deixe seu feedback:</label><br>
+              <textarea name="feedback" id="feedback" rows="4" cols="50" placeholder="Digite seu feedback aqui..."></textarea>
+              </fieldset>
+            </form>
+          </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Quiz para Programadores. Todos os direitos reservados.</p>
+        <p>Para dúvidas ou sugestões, entre em <a href="mailto:contato@quizprogramadores.com" target="_blank">contato conosco</a>.</p>
+    </footer>
+</body>
+</html>
